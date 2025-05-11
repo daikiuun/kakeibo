@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>家計簿アプリ</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json" />
+    <meta name="theme-color" content="#4CAF50" />
+  </head>
+  <body></body>
+</html>
+<body>
+  <div class="container">
+    <h1>家計簿</h1>
+
+    <div class="form-group">
+      <input id="amount" type="number" placeholder="金額" />
+      <input id="category" type="text" placeholder="カテゴリ" />
+    </div>
+
+    <button onclick="addExpense()">追加</button>
+
+    <ul id="expense-list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+<!-- index.html 内の <h1> の下あたりに追加 -->
+<button onclick="toggleDarkMode()" id="toggle-button">
+  🌙 ダークモード切替
+</button>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>サイトタイトル</title>
+</head>
