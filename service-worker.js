@@ -1,4 +1,4 @@
-const CACHE_NAME = "custom-timer-cache-v1";
+const CACHE_NAME = "custom-kakeibo-cache-v1";
 const urlsToCache = [
   "/",
   "/index.html",
